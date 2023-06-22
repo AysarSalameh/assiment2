@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/math"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textsuors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/text"
+
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Quiz of mathematics"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+
+    <Button
+        android:id="@+id/larn"
+        android:text="Multiplication Table"
+        android:layout_width="wrap_content"
+        android:backgroundTint="#CDDC39"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+
+        android:textColor="@color/black"
+
+        android:textSize="25dp">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:backgroundTint="#CDDC39"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+
+    </Button>
+
+    <Button
+        android:textColor="@color/black"
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:backgroundTint="#CDDC39"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@id/button1"
+        android:textSize="20dp">
+
+    </Button>
+
+    <Button
+        android:textColor="@color/black"
+        android:id="@+id/button3"
+        android:backgroundTint="#CDDC39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="380dp"
+        android:layout_toRightOf="@id/button1"
+        android:textSize="20dp">
+
+    </Button>
+
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="50dp">
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#2084B1"
+        android:text="Next"
+        android:textColor="@color/black"
+        android:textSize="40dp">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#FF0000"
+        android:text="Done"
+        android:textColor="@color/black"
+        android:textSize="40dp">
+
+    </Button>
+</RelativeLayout>
